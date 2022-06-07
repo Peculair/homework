@@ -1,9 +1,8 @@
+/*
 .schedule-body>tr:hover {
     background-color: tomato;
     color: white;
 }
-
-/* Оформлення таблиці */
 .schedule {
     border-collapse: collapse;
 }
@@ -12,4 +11,86 @@
 .schedule td {
     padding: 8px;
     border: 1px solid #212121;
+}
+
+
+.option-title::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    display: block;
+}
+.option-title::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    display: block;
+}
+*/
+
+.account {
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    position: absolute;
+    width: 160px;
+    height: 48px;
+    left: 112px;
+    top: 617px;
+    background: #ffffff;
+    
+    border-radius: 8px;
+    cursor: pointer;
+ 
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.account:hover{
+    background: #aa2b2b;
+    color: #ffffff;
+    box-shadow: 0px 0px 64px rgba(176, 0, 0, 0.3);
+    
+}
+.plan {
+box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    position: absolute;
+    width: 160px;
+    height: 48px;
+    left: 296px;
+    top: 617px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.plan:hover {
+    background: #aa2b2b;
+    color: #ffffff;
+    box-shadow: 0px 0px 64px rgba(176, 0, 0, 0.3);
 }
