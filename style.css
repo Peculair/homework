@@ -1,35 +1,118 @@
-/*
-.schedule-body>tr:hover {
-    background-color: tomato;
-    color: white;
+:root{
+    --primary-color: black;
+    --secondary-color: #808080;
+    --acent-color: #b00000;
+    --primary-font: "Inter", sans-serif; 
+    --secondary-font: "Poppins", sans-serif;
+    --normal-font: 400;
+    --medium-font: 600;
+    --bold-font: 700;
+    --bolder-font: 800;
+    --primary-font-size: 12px;
 }
-.schedule {
-    border-collapse: collapse;
+body{
+    font-size: var(--primary-font-size)
+}
+.content{
+    width: 1285px;
+    margin: 0 auto;
+}
+.list{
+    list-style: none;
+}
+/*header*/
+.header{
+    display: flex;
+    padding: 40px 0 0;
+    margin-bottom: 80px;
+    
 }
 
-.schedule th,
-.schedule td {
-    padding: 8px;
-    border: 1px solid #212121;
-}
-
-
-.option-title::before {
-    content: "";
-    width: 20px;
-    height: 20px;
-    background-color: blue;
+.logo{
     display: block;
+    width: 90px;
 }
-.option-title::after {
-    content: "";
-    width: 20px;
-    height: 20px;
-    background-color: yellow;
-    display: block;
+.menu-list{
+    list-style: none;
+    display: flex;
 }
-*/
+.menu-item:first-child{
+    margin-right: 135px;
 
+}
+.menu-item{
+    margin-right: 33px;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 15;
+    font-weight: var(--medium-font);
+   align-items: center;
+}
+.menu-item:last-child{
+    margin-right: 0;
+    margin-left: 200px;
+    display: flex;
+
+}
+.menu-item:last-child::after{
+
+}
+.menu{
+    margin-right: 33px;
+}
+.menu-link{
+color: var(--primary-color);
+text-decoration: none;
+}
+
+.phone{
+    margin-right: 6px;
+}
+/*секція з кнопками*/
+
+/* чмарні технології*/
+/* логотипи*/
+/* підтримка*/
+/*тарифні плани*/
+/* footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 .account {
 display: flex;
     flex-direction: row;
@@ -94,3 +177,4 @@ box-sizing: border-box;
     color: #ffffff;
     box-shadow: 0px 0px 64px rgba(176, 0, 0, 0.3);
 }
+
